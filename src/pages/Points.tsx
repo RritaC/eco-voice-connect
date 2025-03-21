@@ -1,10 +1,9 @@
-
 import React, { useEffect } from 'react';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import { CustomButton } from '@/components/ui/CustomButton';
 import { Link } from 'react-router-dom';
-import { Award, AlertTriangle, Recycle, Calendar, Gift, Trophy, ChevronRight } from 'lucide-react';
+import { Award, AlertTriangle, Recycle, Calendar, Gift, Trophy, ChevronRight, Users } from 'lucide-react';
 
 const PointsCard = ({ icon, title, points, description }: { icon: React.ReactNode, title: string, points: string, description: string }) => (
   <div className="bg-white rounded-xl p-6 shadow-subtle transition-all hover:shadow-elevated">
