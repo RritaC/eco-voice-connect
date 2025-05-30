@@ -119,10 +119,12 @@ const Contact = () => {
                       <Phone className="w-6 h-6 text-eco-green-dark" />
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold mb-1">Call Us</h3>
-                      <p className="text-eco-gray-dark mb-1">Main Office:</p>
-                      <a href="tel:+38344123456" className="text-eco-green-dark hover:underline">
-                        +383 44 123 456
+                      <h3 className="text-lg font-semibold mb-1">KONTAKT</h3>
+                      <a href="tel:+38344260606" className="text-eco-green-dark hover:underline block">
+                        +383 44 260 606
+                      </a>
+                      <a href="tel:+38338244258" className="text-eco-green-dark hover:underline block">
+                        +383 38 244 258
                       </a>
                     </div>
                   </div>
@@ -132,11 +134,10 @@ const Contact = () => {
                       <MapPin className="w-6 h-6 text-eco-green-dark" />
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold mb-1">Visit Us</h3>
+                      <h3 className="text-lg font-semibold mb-1">ADRESA</h3>
                       <p className="text-eco-gray-dark">
-                        Shkolla Mileniumi i Trete<br />
-                        Pristina<br />
-                        Kosovo
+                        Rr. "Sokol Sopi", nr. 107<br />
+                        Matiçan, 10000 Prishtinë, Kosovë
                       </p>
                     </div>
                   </div>
@@ -178,14 +179,10 @@ const Contact = () => {
                 
                 {/* Office Hours */}
                 <div className="bg-eco-gray-light rounded-xl p-6">
-                  <h3 className="text-lg font-semibold mb-3">Office Hours</h3>
+                  <h3 className="text-lg font-semibold mb-3">ORARI</h3>
                   <div className="grid grid-cols-2 gap-2 text-eco-gray-dark">
-                    <div>Monday - Friday:</div>
-                    <div>9:00 AM - 5:00 PM</div>
-                    <div>Saturday:</div>
-                    <div>10:00 AM - 2:00 PM</div>
-                    <div>Sunday:</div>
-                    <div>Closed</div>
+                    <div>E Hënë - E Premte:</div>
+                    <div>08:00-16:00</div>
                   </div>
                 </div>
               </div>
