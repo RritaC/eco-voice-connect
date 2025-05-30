@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
@@ -109,12 +108,8 @@ const Contact = () => {
                     <div>
                       <h3 className="text-lg font-semibold mb-1">Email Us</h3>
                       <p className="text-eco-gray-dark mb-1">General Inquiries:</p>
-                      <a href="mailto:info@ecovoicekosova.org" className="text-eco-green-dark hover:underline">
-                        info@ecovoicekosova.org
-                      </a>
-                      <p className="text-eco-gray-dark mt-2 mb-1">Partnership Opportunities:</p>
-                      <a href="mailto:partnerships@ecovoicekosova.org" className="text-eco-green-dark hover:underline">
-                        partnerships@ecovoicekosova.org
+                      <a href="mailto:kryesiashkolle@mileniumi3.net" className="text-eco-green-dark hover:underline">
+                        kryesiashkolle@mileniumi3.net
                       </a>
                     </div>
                   </div>
@@ -129,10 +124,6 @@ const Contact = () => {
                       <a href="tel:+38344123456" className="text-eco-green-dark hover:underline">
                         +383 44 123 456
                       </a>
-                      <p className="text-eco-gray-dark mt-2 mb-1">Smart Bin Support:</p>
-                      <a href="tel:+38344789012" className="text-eco-green-dark hover:underline">
-                        +383 44 789 012
-                      </a>
                     </div>
                   </div>
                   
@@ -143,9 +134,8 @@ const Contact = () => {
                     <div>
                       <h3 className="text-lg font-semibold mb-1">Visit Us</h3>
                       <p className="text-eco-gray-dark">
-                        EcoVoice Kosova Headquarters<br />
-                        Rr. Bill Clinton, Nr. 34<br />
-                        Pristina, 10000<br />
+                        Shkolla Mileniumi i Trete<br />
+                        Pristina<br />
                         Kosovo
                       </p>
                     </div>
